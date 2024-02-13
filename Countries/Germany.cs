@@ -3,7 +3,6 @@ namespace Countries;
 class Germany : Country
 {
   String Country.GetName() { return "Germany"; }
-
   void Country.CheckPublicLegality(uint age)
   {
     if (age < 16)
